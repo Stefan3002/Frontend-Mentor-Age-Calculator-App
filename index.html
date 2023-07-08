@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Age calculator app</title>
+  <script defer src="script.js"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<section class="wrapper">
+  <section class="form-wrapper">
+    <form class="form-body" action="">
+
+      <div class="input-wrapper">
+        <label class="label-upper" for="day-input">DAY</label>
+        <input placeholder="DD" class="input-lower" id="day-input" type="number">
+      </div>
+
+      <div class="input-wrapper">
+        <label class="label-upper" for="month-input">MONTH</label>
+          <input placeholder="MM" class="input-lower" id="month-input" type="number">
+      </div>
+
+      <div class="input-wrapper">
+        <label class="label-upper" for="year-input">YEAR</label>
+          <input placeholder="YYYY" class="input-lower" id="year-input" type="number">
+      </div>
+
+    </form>
+    <div class="delimiter-wrapper">
+      <hr class="delimiter">
+      <div class="button">
+        <img class="arrow" src="./assets/images/icon-arrow.svg" alt="">
+      </div>
+    </div>
+
+    <section class="result-wrapper">
+      <p class="result result-years"><span class="high">--</span> years</p>
+      <p class="result result-months"><span class="high">--</span> months</p>
+      <p class="result result-days"><span class="high">--</span> days</p>
+    </section>
+  </section>
+</section>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Stefan3002">Stefan Secrieru</a>.
+  </div>
+</body>
+</html>
